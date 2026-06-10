@@ -1,0 +1,49 @@
+// Subheader/index.jsx
+import { Subheaderdiv } from "./styles";
+
+const pratos = [
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "SOPHISTICATED DISHES",
+  "GASTRONOMIC EXPERIENCE",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "SOPHISTICATED DISHES",
+  "GASTRONOMIC EXPERIENCE",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "SOPHISTICATED DISHES",
+  "GASTRONOMIC EXPERIENCE",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "SOPHISTICATED DISHES",
+  "GASTRONOMIC EXPERIENCE",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES",
+  "SOPHISTICATED DISHES",
+  "GASTRONOMIC EXPERIENCE",
+  "CUISINE & FRENCH TRADITION",
+  "L'ÉLITE FRANÇAISE RECIPES"
+];
+
+const Subheader = () => {
+  return (
+    <Subheaderdiv>
+      <div className="marquee-container">
+        <div className="marquee-text">
+          {pratos.join(" ★ ")}
+        </div>
+      </div>
+    </Subheaderdiv>
+  );
+};
+
+export default Subheader;
