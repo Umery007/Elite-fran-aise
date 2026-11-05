@@ -53,7 +53,7 @@ npm install
 npm run dev
 ```
 
-O site ficará disponível em **http://localhost:5173** (endereço padrão do Vite).
+
 
 ### Build para produção
 
